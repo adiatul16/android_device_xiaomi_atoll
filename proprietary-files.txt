@@ -57,7 +57,6 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 # Audio
 system_ext/etc/permissions/audiosphere.xml
 -system_ext/framework/audiosphere.jar
-vendor/bin/audioflacapp
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -177,11 +176,9 @@ vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
 vendor/lib/libcdsprpc.so
 vendor/lib/libcdsp_default_listener.so
-vendor/lib/libfastrpc_utf_stub.so
 vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE
@@ -675,14 +672,8 @@ vendor/lib64/libStDrvInt.so
 vendor/lib64/libtzdrmgenprov.so
 
 # DRM-HDCP
-vendor/bin/hdcp1prov
-vendor/bin/hdcp2p2prov
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
 vendor/lib/libhdcpsrm.so
 vendor/lib/libmm-hdcpmgr.so
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
@@ -1819,21 +1810,6 @@ vendor/bin/time_daemon
 vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
-# Touch-improve
-vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
-vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
-vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
-vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
-
-# Touchscreen
-vendor/etc/hbtp/loader.cfg
-vendor/lib/libhbtpclient.so
-vendor/lib/libhbtpdsp.so
-vendor/lib/libhbtpfrmwk.so
-vendor/lib64/libhbtpclient.so
-vendor/lib64/libhbtpdsp.so
-vendor/lib64/libhbtpfrmwk.so
-
 # UBWC
 vendor/lib/libstreamparser.so
 
@@ -1928,8 +1904,6 @@ vendor/lib64/libwfdhdcpcp.so
 # WiFi
 bin/iwpriv
 vendor/bin/cnss-daemon
-vendor/bin/cnss_diag
-vendor/bin/fstman
 vendor/bin/iwpriv
 vendor/bin/nv_mac
 
@@ -2472,24 +2446,17 @@ system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 -vendor/app/SSGTelemetryService/SSGTelemetryService.apk
 vendor/bin/adpl
 vendor/bin/applypatch
-vendor/bin/athdiag
 vendor/bin/batterysecret
 vendor/bin/boringssl_self_test32
 vendor/bin/boringssl_self_test64
-vendor/bin/charge_logger
 vendor/bin/chattr
-vendor/bin/checkpoint_gc
 vendor/bin/devmem
 vendor/bin/displayfeature
 vendor/bin/dspservice
 vendor/bin/embmsslServer
-vendor/bin/e_loop
-vendor/bin/fmconfig
 vendor/bin/fsync
 vendor/bin/ftmdaemon
 vendor/bin/getconf
-vendor/bin/hal_proxy_daemon
-vendor/bin/hbtp_daemon
 vendor/bin/hw/android.hardware.atrace@1.0-service
 vendor/bin/hw/android.hardware.audio.service
 vendor/bin/hw/android.hardware.lights-service.qti
@@ -2608,7 +2575,6 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.fstman@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qccvndhal@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
@@ -2917,7 +2883,6 @@ vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so
 vendor/lib64/vendor.qti.hardware.embmssl@1.0.so
-vendor/lib64/vendor.qti.hardware.fstman@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
