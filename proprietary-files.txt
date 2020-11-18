@@ -2871,7 +2871,6 @@ vendor/etc/lm/GameOptimizationFeature.xml
 vendor/etc/lm/prekill/prekill_4GB.data
 vendor/etc/lm/prekill/prekill_6GB.data
 vendor/etc/lm/PreKillFeature.xml
-vendor/etc/NOTICE_GPL.html.gz
 vendor/etc/PinkNoise.wav
 vendor/etc/qc.xml
 vendor/etc/qc_GCF.xml
