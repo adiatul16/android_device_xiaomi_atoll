@@ -2516,7 +2516,6 @@ vendor/bin/KmInstallKeybox
 vendor/bin/ks
 vendor/bin/LctReadWriteNV
 vendor/bin/loadalgo
-vendor/bin/loopbacktest
 vendor/bin/lsattr
 vendor/bin/mlid
 vendor/bin/mm-vidc-omx-test
