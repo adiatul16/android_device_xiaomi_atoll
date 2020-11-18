@@ -2668,7 +2668,6 @@ vendor/bin/boringssl_self_test64
 vendor/bin/charge_logger
 vendor/bin/chattr
 vendor/bin/checkpoint_gc
-vendor/bin/cplay
 vendor/bin/devmem
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
@@ -2678,7 +2677,6 @@ vendor/bin/diag_socket_log
 vendor/bin/diag_uart_log
 vendor/bin/displayfeature
 vendor/bin/dspservice
-vendor/bin/dumpsys
 vendor/bin/embmsslServer
 vendor/bin/e_loop
 vendor/bin/FactoryApp
