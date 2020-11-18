@@ -2952,7 +2952,6 @@ vendor/lib/libsns_registry_skel.so
 vendor/lib/libsoc_helper.so
 vendor/lib/libsoc_helper_jni.so
 vendor/lib/libspkrprot.so
-vendor/lib/libssrec.so
 vendor/lib/libstagefright_amrnb_common.so
 vendor/lib/libstagefright_enc_common.so
 vendor/lib/libstagefright_flacdec.so
@@ -3119,7 +3118,6 @@ vendor/lib64/libsns_registry_skel.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/libsoc_helper_jni.so
 vendor/lib64/libspkrprot.so
-vendor/lib64/libssrec.so
 vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libst_sr_models.so
 vendor/lib64/libsynergy_loc_api.so
